@@ -121,6 +121,18 @@ a:hover {
     display: none;
 }
 
+.git a {
+    text-align: center;
+    text-decoration: none;
+    color: #0000FF;
+}
+
+.git a:hover {
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+}
+
 @media(max-width: 1024px) {
     .men {
         padding-left: 40px;

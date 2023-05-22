@@ -8,24 +8,34 @@ body {
     font-family: 'calibri', serif;
     text-shadow: 4px 4px 4px #aaa;
     margin: 0;
+    background-color: #00d0ff;
 }
-h2{
+
+h2 {
     color: white;
     font-size: 50px;
 }
+iframe{
+    border:3px solid #00d0ff;
+    margin: 5px;
+}
+
 #unid-1 {
     background-color: black;
     margin: 60px;
 
 }
+
 #unid-2 {
     background-color: black;
     margin: 60px;
 }
+
 #inid-3 {
     background-color: black;
     margin: 60px;
 }
+
 #unid-4 {
     background-color: black;
     margin: 60px;
@@ -85,6 +95,7 @@ a:hover {
     background-color: rgb(0, 180, 200);
     transition: 0.5s;
 }
+
 .sub-menu {
     display: none;
     position: absolute;
@@ -122,15 +133,20 @@ a:hover {
 }
 
 .git a {
-    text-align: center;
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #000000;
+    color: #ffffff;
     text-decoration: none;
-    color: #0000FF;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
 }
 
 .git a:hover {
-    text-align: center;
-    text-decoration: none;
-    color: #fff;
+    background-color: #02fca0;
 }
 
 @media(max-width: 1024px) {
